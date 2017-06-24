@@ -1,0 +1,22 @@
+{
+  "name": "typescript-gulp-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "scripts": "gulp scripts",
+    "watch": "gulp watch"
+  },
+  "author": "Firaenix",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.1.7",
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4"
+  }
+}
